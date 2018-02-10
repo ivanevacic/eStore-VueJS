@@ -30,7 +30,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<!-- This SCSS is only applied to elements of this component -->
+<style lang="scss" scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
