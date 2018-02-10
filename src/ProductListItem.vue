@@ -1,7 +1,8 @@
 <template>
   <li>
     <img :src="product.image">
-    <p><strong> {{ product.name }} <a @click="requestRemoval">Hide this item</a></p>
+    <p><strong>{{ product.name }}</strong></p>
+    <p><strong>{{ product.description }}</strong> <a @click="requestRemoval">Hide this item</a></p>
   </li>
 </template>
 
@@ -18,7 +19,7 @@
   };
 </script>
 
-<!-- This SCSS is only applied to elements of this component -->
+<!-- 'scoped' -> This SCSS is only applied to elements of this component -->
 <style lang="scss" scoped>
   img {
     float: left;
