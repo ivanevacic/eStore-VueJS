@@ -1,4 +1,23 @@
 ---
 label: test
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: test
+  description: eataetaetaetaet
+- name: grs
+  type: file
+  config:
+    maxSize: 250
+  label: grs
+  description: t3wsrt
